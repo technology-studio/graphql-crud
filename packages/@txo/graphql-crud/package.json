@@ -1,0 +1,24 @@
+{
+  "name": "@txo/graphql-crud",
+  "version": "1.0.0",
+  "description": "Technology Studio - Graphql crud",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technology-studio/graphql-crud.git"
+  },
+  "author": {
+    "name": "Technology Studio",
+    "email": "npm@technologystudio.sk",
+    "url": "https://github.com/technology-studio/"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+  }
+}
