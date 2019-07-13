@@ -1095,6 +1095,13 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@txo-peer-dep/log@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-1.0.1.tgz#baab622948663202041ff84ce4a868273c45efe7"
+  integrity sha512-XSpRkaP1IPtXfkX5cUmLyyL6n01hPYkM+g3XoxvDxofY3Knson9cTFMgCb9UXVhNMDpn/o/xDHNkMietvbApxg==
+  dependencies:
+    "@txo/config-manager" "^1.1.0"
+
 "@txo/babel-preset@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@txo/babel-preset/-/babel-preset-1.0.0.tgz#64ca9a6ed4d8a1a4f064b9dfbbd6e5017bea82ae"
@@ -1120,6 +1127,26 @@
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     babel-plugin-syntax-trailing-function-commas "^6.22.0"
+
+"@txo/config-manager@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-1.1.0.tgz#cc3c4216cb614d934bc030075dabb16b975d71da"
+  integrity sha512-dLxGrAv0vhkJYHd2wCt3QimhZKylJAsaDyXfOjB+I7Yrfvel+QZLrbjGu0AEujq1FJ913eKIfeAa2Y3NiTYo4A==
+  dependencies:
+    immutability-helper "^2.8.1"
+
+"@txo/flow@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@txo/flow/-/flow-1.0.0.tgz#9cda8673adf9940f968c7cadad381a4e738ad38e"
+  integrity sha512-HPPIGXvDIHxzAY/1zIeadOqwo3z8nMkQ5ARiWJuiLQ3LCkMWEqH28fztD87sk1q9b+1K72VWrA7RSXIke2EdSA==
+
+"@txo/functional@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-1.2.0.tgz#ce8ca1683c8be1eb9c9669609d5c28382518a65e"
+  integrity sha512-RD3/NBxGQ0L9FeAi+uEFVmmy+CH845jk0aERkopO2jPpUY1qZmGadke3ETNABdhTigf+maOSAtqxIHZiBd7pPw==
+  dependencies:
+    "@txo/flow" "^1.0.0"
+    immutability-helper "^3.0.1"
 
 "@txo/glow@^1.2.3":
   version "1.2.3"
@@ -3046,6 +3073,20 @@ ignore@^5.1.1:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.2.tgz#e28e584d43ad7e92f96995019cc43b9e1ac49558"
   integrity sha512-vdqWBp7MyzdmHkkRWV5nY+PfGRbYbahfuvsBCh277tq+w9zyNi7h5CYJCK0kmzti9kU+O/cB7sE8HvKv6aXAKQ==
 
+immutability-helper@^2.8.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-2.9.1.tgz#71c423ba387e67b6c6ceba0650572f2a2a6727df"
+  integrity sha512-r/RmRG8xO06s/k+PIaif2r5rGc3j4Yhc01jSBfwPCXDLYZwp/yxralI37Df1mwmuzcCsen/E/ITKcTEvc1PQmQ==
+  dependencies:
+    invariant "^2.2.0"
+
+immutability-helper@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-3.0.1.tgz#4f609c5afbf8d78cb297970e8af2fba8b0eda1d6"
+  integrity sha512-U92ROQQt7XkIwrdqCByUI118TQM1hXdKnRQpvKeA0HRyGSnJipu9IWHe4UD8zCN00O8UnQjQzPCgZ1CC3yBzHA==
+  dependencies:
+    invariant "^2.2.4"
+
 import-fresh@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
@@ -3125,7 +3166,7 @@ into-stream@^3.1.0:
     from2 "^2.1.1"
     p-is-promise "^1.1.0"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.0, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==

@@ -15,10 +15,11 @@
   },
   "license": "MIT",
   "private": false,
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "@txo/functional": "^1.2.0"
   },
   "peerDependencies": {
+    "@txo-peer-dep/log": "^1.0.1"
   }
 }
