@@ -89,7 +89,7 @@ const operationDataMapper = <DATA: {}>(
       }
       log.debug(`after mapper ${key}`, { outputData, nextKey, nextValue })
     } else {
-      if (output) {
+      if (output !== undefined) {
         outputData[key] = output
       }
     }
