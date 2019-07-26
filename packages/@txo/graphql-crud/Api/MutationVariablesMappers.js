@@ -13,7 +13,7 @@ import {
 
 import { NEW_ID } from './EntityHelper'
 
-const log = new Log('app.Modules.Common.Api.GraphQlDataMappers')
+const log = new Log('txo.graphql-crud.Api.MutationVariablesMappers')
 
 type Options = {
   +includeUnchanged?: boolean,
