@@ -13,7 +13,7 @@ import {
 
 import { NEW_ID } from './EntityHelper'
 
-const log = new Log('app.Modules.Common.Api.GraphQlDataMappers')
+const log = new Log('txo.graphql-crud.Api.MutationVariablesMappers')
 
 type Options = {
   +includeUnchanged?: boolean,
@@ -89,7 +89,7 @@ const operationDataMapper = <DATA: {}>(
       }
       log.debug(`after mapper ${key}`, { outputData, nextKey, nextValue })
     } else {
-      if (output) {
+      if (output !== undefined) {
         outputData[key] = output
       }
     }
