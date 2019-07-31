@@ -1,6 +1,6 @@
 {
   "name": "@txo/graphql-crud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Technology Studio - Graphql crud",
   "main": "index.js",
   "typings": "index.d.ts",
